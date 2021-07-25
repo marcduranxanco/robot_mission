@@ -4,7 +4,15 @@
     },
     "autoload": {
       "psr-4": {
-        "App\\": "src/"
+        "App\\": "src/",
+        "App\\RobotMission\\Controller\\": "/app/src/app/robot_mission/Controller",
+        "App\\RobotMission\\Command\\": "/app/src/app/robot_mission/Command",
+        "App\\Mission\\Obstacle\\": "src/Mission/Obstacle",
+        "App\\Mission\\Planet\\": "src/Mission/Planet",
+        "App\\Mission\\Planet\\Controller\\": "src/Mission/Planet/Application/Controller",
+        "App\\Mission\\Robot\\": "src/Mission/Robot",
+        "App\\Mission\\Robot\\Controller\\": "src/Mission/Robot/Application/Controller",
+        "Utils\\": "src/Shared"
       },
       "classmap": ["src"]
     },
